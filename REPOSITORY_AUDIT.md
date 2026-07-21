@@ -1,65 +1,68 @@
-# Repository Cleanup Audit
+# Repository Cleanup Decisions
 
-Status legend: **SHOWCASE**, **ACTIVE**, **CONSOLIDATE**, **ARCHIVE**, **DELETE REVIEW**.
+This file is the working source of truth for the GitHub portfolio cleanup.
 
-No repository should be permanently deleted until its useful files and commit history have been reviewed.
+## Public flagship portfolio
 
-## Flagship portfolio
+These are the six projects that should represent the strongest work:
 
-| Repository | Status | Action |
-|---|---|---|
-| `vibelink_portal` | ACTIVE → SHOWCASE | Repair GitHub Pages assets, complete lead infrastructure, improve README |
-| `vibeflex-headless` | SHOWCASE | Verify live deployment, improve README and screenshots |
-| `VibeOpsPortal` | SHOWCASE CANDIDATE | Inspect product scope and documentation |
-| `rork-vela-luxury-curtains` | SHOWCASE CANDIDATE | Preserve; document app capabilities and release status |
-| `winrep-pro-wizard` | SHOWCASE CANDIDATE | Improve naming, documentation, and screenshots |
-| `rork-here` | REVIEW | Determine whether this contains Elite Eleven and preserve accordingly |
+1. `vibelink_portal` — VibeLink website, lead capture, and CRM foundation
+2. `vibeflex-headless` — VibeFlex full-stack headless commerce platform
+3. `VibeOpsPortal` — business operations command center
+4. `rork-vela-luxury-curtains` — luxury product visualization experience
+5. `winrep-pro-wizard` — field-sales and territory-management system
+6. Elite Eleven repository — identify the correct source repository, then document and feature it
 
-## VibeLink family
+## Official repository decisions
 
-| Repository | Status | Action |
-|---|---|---|
-| `vibelink_portal` | ACTIVE | Official website and CRM repository |
-| `rork-vibelink-property-enhancement` | CONSOLIDATE / ARCHIVE | Preserve useful Rork UI and content; disable Pages after comparison |
-| `vibeops-lead-system` | CONSOLIDATE | Review lead logic for migration into VibeLink or VibeOps |
+### VibeLink
 
-## VibeFlex family
+- **KEEP / ACTIVE:** `vibelink_portal`
+- **ARCHIVE:** `rork-vibelink-property-enhancement`
+- **CONSOLIDATE:** `vibeops-lead-system` into VibeLink or VibeOps after useful lead logic is reviewed
 
-| Repository | Status | Action |
-|---|---|---|
-| `vibeflex-headless` | KEEP | Primary headless storefront candidate |
-| `VibeFlex-Sports` | REVIEW | Compare against headless storefront |
-| `vibeflex-sports-site` | REVIEW | Compare and consolidate |
-| `LacedUp-By-VibeFlex-Sports` | REVIEW | Determine whether it contains unique storefront work |
-| `vibeflex-shopify-theme` | REVIEW | Keep only if it contains useful Shopify theme code |
-| `VibeFlex-Theme` | DELETE REVIEW | Empty repository candidate |
-| `vibeflex-drop-1` | ARCHIVE / DELETE REVIEW | Tiny campaign repository candidate |
-| `vibeflex-reapsow-empire` | CONSOLIDATE | Mixed-scope repository; inspect before action |
+The Rork repository is now labeled as a legacy reference and points visitors to the current platform.
 
-## ReapSow family
+### VibeFlex
 
-| Repository | Status | Action |
-|---|---|---|
-| `ReapSow-Pro1` | DELETE REVIEW | Empty repository candidate |
-| `ReapSow1.0` | DELETE REVIEW | Empty repository candidate |
-| `ReapSowPro-Live` | REVIEW | Inspect limited code |
-| `ReapSow_hq` | REVIEW | Inspect limited code |
-| `ReapSow_Pro` | REVIEW | Inspect limited code |
+- **KEEP / FLAGSHIP:** `vibeflex-headless`
+- **REVIEW FOR UNIQUE SHOPIFY THEME CODE:** `vibeflex-shopify-theme`
+- **ARCHIVE AFTER COMPARISON:** `VibeFlex-Sports`
+- **ARCHIVE AFTER COMPARISON:** `vibeflex-sports-site`
+- **ARCHIVE AFTER COMPARISON:** `LacedUp-By-VibeFlex-Sports`
+- **ARCHIVE:** `vibeflex-drop-1`
+- **CONSOLIDATE OR ARCHIVE:** `vibeflex-reapsow-empire`
+- **DELETE:** `VibeFlex-Theme` if confirmed empty
 
-## Likely cleanup candidates
+### ReapSow
 
-| Repository | Status | Reason |
-|---|---|---|
-| `Data-Science-Notebook` | DELETE REVIEW | Empty |
-| `DataScienceEcosystem.piynb` | DELETE REVIEW | Likely course artifact and misspelled repository name |
-| `Realtor-Vibe` | DELETE REVIEW | Empty |
-| `Smiles-Lakewood-Ranch-CRM` | DELETE REVIEW | Empty |
+Keep only the repository with the strongest usable implementation. Current disposition:
 
-## Preserve privately pending review
+- **DELETE IF EMPTY:** `ReapSow-Pro1`
+- **DELETE IF EMPTY:** `ReapSow1.0`
+- **COMPARE:** `ReapSowPro-Live`
+- **COMPARE:** `ReapSow_hq`
+- **COMPARE:** `ReapSow_Pro`
+
+After comparison, retain one canonical repository and archive or delete the rest.
+
+## Immediate delete candidates
+
+These repositories are empty, accidental, misspelled, or low-value course artifacts and should not remain visible as active portfolio projects:
+
+- `Data-Science-Notebook`
+- `DataScienceEcosystem.piynb`
+- `Realtor-Vibe`
+- `Smiles-Lakewood-Ranch-CRM`
+- `VibeFlex-Theme`
+- Empty ReapSow duplicates after final verification
+
+## Keep private pending product review
 
 - `brand-shop-flow`
 - `escapade-playbook`
 - `rork-build-this`
+- `rork-here`
 - `rork-impulse-pdf-shop`
 - `rork-quickfix-digital-toolkit`
 - `vibe-forge-pack`
@@ -69,11 +72,25 @@ No repository should be permanently deleted until its useful files and commit hi
 - `azure-ai-travel-agents`
 - `student-athlete-handbook`
 
-## Cleanup sequence
+## Profile repository
 
-1. Repair and document `vibelink_portal`.
-2. Identify the Elite Eleven repository.
-3. Compare and consolidate VibeFlex repositories.
-4. Compare ReapSow repositories.
-5. Create the final archive/delete approval list.
-6. Pin only the strongest six public projects on the profile.
+- **KEEP:** `daa25/daa25`
+- Purpose: professional GitHub profile README and portfolio directory
+- Never delete this repository
+
+## Final presentation standard
+
+A public flagship repository should have:
+
+- Clear product name and one-sentence value proposition
+- Professional README
+- Screenshots or product preview
+- Current status
+- Stack and architecture summary
+- Setup instructions where appropriate
+- Live demo or release link when available
+- No fake customer claims, sample leads presented as real, or exposed credentials
+
+## Actions requiring GitHub settings access
+
+The connected GitHub tools can edit code, documentation, branches, issues, and pull requests, but do not currently expose repository-level archive or permanent-delete controls. Repositories listed above for archive/delete must be completed from **Repository Settings → General → Danger Zone**. The decisions in this file are approved cleanup instructions.
