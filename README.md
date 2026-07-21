@@ -1,68 +1,57 @@
 # Delbert Alvarado
 
-Founder, product creator, and operator building practical software across property services, commerce, sports intelligence, sales operations, and automation.
+**Founder · Product Builder · Business Operator**
 
-## Featured work
+I build practical digital products from real operating problems—property-service platforms, commerce systems, sports intelligence, sales command centers, and workflow automation.
 
-### VibeLink Property Enhancement Platform
-Premium property-services website and lead-management platform for Tampa Bay homeowners, Realtors, investors, property managers, and short-term-rental operators.
+## Featured products
 
-- Conversion-focused service website
-- Verified lead capture and source attribution
-- Property assessment workflow
-- CRM and follow-up foundation
-- GitHub Pages deployment in progress
+### [VibeLink Property Enhancement Platform](https://github.com/daa25/vibelink_portal)
+Premium Tampa Bay property-services website and lead platform designed for homeowners, Realtors, investors, property managers, and short-term-rental operators.
 
-### VibeFlex Sports
-Headless sportswear and active-lifestyle commerce platform connected to Shopify.
+`React` `Vite` `Supabase` `GitHub Actions` `Lead Attribution`
 
-- React storefront
-- Shopify Storefront API
-- Product, collection, cart, and checkout flows
-- Original apparel and performance-focused branding
+### [VibeFlex Headless Commerce](https://github.com/daa25/vibeflex-headless)
+Full-stack sportswear and active-lifestyle commerce experience with product discovery, cart and checkout workflows, data services, and scalable storefront architecture.
+
+`React 19` `TypeScript` `Vite` `Express` `Drizzle` `Shopify`
+
+### [VibeOps Portal](https://github.com/daa25/VibeOpsPortal)
+Internal operating system for bringing leads, tasks, reporting, workflows, and business execution into one command center.
+
+`Operations` `Automation` `CRM` `Analytics`
+
+### [Vela Luxury Curtains](https://github.com/daa25/rork-vela-luxury-curtains)
+Mobile-first luxury curtain visualization and custom-order experience featuring room scenes, swatches, and premium product presentation.
+
+`React Native` `Expo` `Product Visualization`
+
+### [WinRep Sales Command Center](https://github.com/daa25/winrep-pro-wizard)
+Field-sales system for territory planning, account visits, opportunities, tasks, receipts, mileage, inventory, and commissions.
+
+`Sales Operations` `Territory CRM` `Field Workflow`
 
 ### Elite Eleven Fantasy
-AI-assisted fantasy-football intelligence platform built for tactical analysis, predictions, player research, and decision support.
+AI-assisted fantasy-football intelligence platform for predictions, player research, tactical analysis, and decision support. Released as an iOS product.
 
-- Live football data workflows
-- Tactical dashboard concepts
-- Player intelligence
-- iOS product development and release experience
+`React Native` `Expo` `AI Workflows` `Sports Data`
 
-### Vela Luxury Curtains
-Luxury curtain visualization and customer-design experience.
+## What I focus on
 
-- Mobile-first product presentation
-- Room-scene visualization
-- Fabric and swatch selection
-- Custom-order workflow
-
-### VibeOps
-Internal operating-system concept for consolidating leads, tasks, workflows, reporting, and business automation.
-
-### WinRep Sales Command Center
-Field-sales CRM and territory-management system for account visits, opportunities, tasks, receipts, mileage, inventory, and commissions.
-
-## Current focus
-
-- Shipping polished production applications
-- Replacing locked no-code systems with owned codebases
-- Building reliable lead and notification infrastructure
-- Connecting business operations through automation and AI
-- Improving documentation, deployment, and portfolio presentation
+- Turning fragmented business processes into usable software
+- Replacing locked no-code systems with owned, maintainable codebases
+- Building reliable lead capture, attribution, and notification infrastructure
+- Connecting commerce, operations, analytics, and AI
+- Shipping products—not portfolio-only demos
 
 ## Technology
 
-`TypeScript` · `React` · `Next.js` · `React Native` · `Expo` · `Tailwind CSS` · `Supabase` · `Shopify` · `GitHub Actions` · `Vercel`
+`TypeScript` · `JavaScript` · `React` · `React Native` · `Expo` · `Vite` · `Next.js` · `Tailwind CSS` · `Supabase` · `Shopify` · `GitHub Actions` · `Vercel`
 
-## Selected repositories
+## Current portfolio direction
 
-- [VibeLink Portal](https://github.com/daa25/vibelink_portal)
-- [VibeFlex Headless](https://github.com/daa25/vibeflex-headless)
-- [VibeOps Portal](https://github.com/daa25/VibeOpsPortal)
-- [Vela Luxury Curtains](https://github.com/daa25/rork-vela-luxury-curtains)
-- [WinRep Pro Wizard](https://github.com/daa25/winrep-pro-wizard)
+The public portfolio is being consolidated around six flagship products: **VibeLink, VibeFlex, Elite Eleven, Vela, VibeOps, and WinRep**. Older experiments and duplicate builds are being archived so the strongest work is easy to find.
 
 ---
 
-**Building useful products from real operating problems—not portfolio-only demos.**
+**Building useful products from real operating problems.**
