@@ -1,57 +1,50 @@
 # Delbert Alvarado
 
-**Founder · Product Builder · Business Operator**
+**Operations Leadership · Customer Experience · Business Systems · Automation**
 
-I build practical digital products from real operating problems—property-service platforms, commerce systems, sports intelligence, sales command centers, and workflow automation.
+I build and improve practical systems around real operating problems—service delivery, customer experience, sales execution, ecommerce, workflow automation, reporting, and team accountability.
 
-## Featured products
+My background combines hands-on operations leadership with product and technology execution. I use software, AI, automation, and process design as tools to make businesses easier to run, easier to measure, and easier to scale.
 
-### [VibeLink Property Enhancement Platform](https://github.com/daa25/vibelink_portal)
-Premium Tampa Bay property-services website and lead platform designed for homeowners, Realtors, investors, property managers, and short-term-rental operators.
+## Selected Public Work
 
-`React` `Vite` `Supabase` `GitHub Actions` `Lead Attribution`
+### [VibeFlex Product Studio](https://github.com/daa25/VibeFlex-Studio)
+Commerce-operations platform designed to move a product from artwork and configuration through fulfillment mapping and Shopify publishing workflows.
 
-### [VibeFlex Headless Commerce](https://github.com/daa25/vibeflex-headless)
-Full-stack sportswear and active-lifestyle commerce experience with product discovery, cart and checkout workflows, data services, and scalable storefront architecture.
-
-`React 19` `TypeScript` `Vite` `Express` `Drizzle` `Shopify`
-
-### [VibeOps Portal](https://github.com/daa25/VibeOpsPortal)
-Internal operating system for bringing leads, tasks, reporting, workflows, and business execution into one command center.
-
-`Operations` `Automation` `CRM` `Analytics`
-
-### [Vela Luxury Curtains](https://github.com/daa25/rork-vela-luxury-curtains)
-Mobile-first luxury curtain visualization and custom-order experience featuring room scenes, swatches, and premium product presentation.
-
-`React Native` `Expo` `Product Visualization`
+`Next.js` `TypeScript` `Drizzle ORM` `Shopify` `Printful` `Commerce Operations`
 
 ### [WinRep Sales Command Center](https://github.com/daa25/winrep-pro-wizard)
-Field-sales system for territory planning, account visits, opportunities, tasks, receipts, mileage, inventory, and commissions.
+Field-sales workflow system built around territory execution, account activity, opportunities, tasks, and the day-to-day operating needs of an outside sales organization.
 
-`Sales Operations` `Territory CRM` `Field Workflow`
+`React` `TypeScript` `Vite` `Sales Operations` `Workflow Design`
 
-### Elite Eleven Fantasy
-AI-assisted fantasy-football intelligence platform for predictions, player research, tactical analysis, and decision support. Released as an iOS product.
+### [C5 Consultants Digital Experience](https://github.com/daa25/C5-Consultants)
+Responsive business website and lead-conversion experience with local SEO, structured data, mobile conversion flows, and automated GitHub Pages deployment.
 
-`React Native` `Expo` `AI Workflows` `Sports Data`
+`Web Operations` `Lead Generation` `SEO` `GitHub Actions`
 
-## What I focus on
+### [VibeFlex Headless Commerce](https://github.com/daa25/vibeflex-headless)
+Customer-facing commerce architecture focused on product discovery, storefront experience, catalog workflows, and scalable integrations.
 
-- Turning fragmented business processes into usable software
-- Replacing locked no-code systems with owned, maintainable codebases
-- Building reliable lead capture, attribution, and notification infrastructure
-- Connecting commerce, operations, analytics, and AI
-- Shipping products—not portfolio-only demos
+`React` `TypeScript` `Vite` `Express` `Drizzle` `Commerce Systems`
 
-## Technology
+## How I Work
 
-`TypeScript` · `JavaScript` · `React` · `React Native` · `Expo` · `Vite` · `Next.js` · `Tailwind CSS` · `Supabase` · `Shopify` · `GitHub Actions` · `Vercel`
+- Turn fragmented workflows into clear operating systems
+- Design around the customer and frontline user experience
+- Connect operations, sales, commerce, data, and automation
+- Build repeatable processes instead of one-off fixes
+- Use AI and software to increase execution speed and visibility
+- Keep business outcomes ahead of technology for technology's sake
 
-## Current portfolio direction
+## Core Areas
 
-The public portfolio is being consolidated around six flagship products: **VibeLink, VibeFlex, Elite Eleven, Vela, VibeOps, and WinRep**. Older experiments and duplicate builds are being archived so the strongest work is easy to find.
+`Operations Leadership` · `Customer Experience` · `Business Development` · `Process Improvement` · `Sales Operations` · `Service Delivery` · `Workflow Automation` · `Ecommerce Operations` · `AI-Assisted Systems`
+
+## Technology Used Across Projects
+
+`TypeScript` · `JavaScript` · `React` · `Next.js` · `Vite` · `Tailwind CSS` · `Supabase` · `Shopify` · `Drizzle ORM` · `GitHub Actions` · `Vercel`
 
 ---
 
-**Building useful products from real operating problems.**
+**Building better operating systems—both organizational and digital.**
